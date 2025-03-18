@@ -3,7 +3,7 @@ import { getDatabase, ref, set } from "firebase/database";
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
 import { firebaseApp } from "../firbase";
-import "./../styles/AddStudent.css";
+import "./../styles/addStudent.css";
 
 export default function AddStudent() {
   const [name, setName] = useState("");

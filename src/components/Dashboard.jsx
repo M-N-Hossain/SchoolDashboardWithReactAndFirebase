@@ -1,7 +1,7 @@
 // components/Dashboard.js
 import React, { useState } from "react";
 import { Link, Outlet } from "react-router";
-import "./../styles/Dashboard.css";
+import "./../styles/dashboard.css";
 
 export default function Dashboard() {
   const [students, setStudents] = useState([]);

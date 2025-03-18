@@ -1,6 +1,6 @@
 import { getDatabase, onValue, ref, remove } from "firebase/database";
 import React, { useEffect, useState } from "react";
-import "./../styles/StudentList.css";
+import "./../styles/studentList.css";
 import UpdateForm from "./UpdateForm";
 
 export default function StudentList() {
