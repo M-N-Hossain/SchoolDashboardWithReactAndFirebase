@@ -100,7 +100,7 @@ export default function SignupForm() {
             onClick={handleSignupWithGoogle}
             className="social-btn google"
           >
-            <img src="/src/assets/google.png" alt="Google" />
+            <img src="../assets/google.png" alt="Google" />
             Google
           </button>
           <button
@@ -108,7 +108,7 @@ export default function SignupForm() {
             onClick={handleSignupWithFacebook}
             className="social-btn facebook"
           >
-            <img src="/src/assets/facebook.png" alt="Facebook" />
+            <img src="../assets/facebook.png" alt="Facebook" />
             Facebook
           </button>
         </div>

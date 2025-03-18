@@ -51,11 +51,11 @@ export default function LoginForm() {
         <p>Or log in with:</p>
         <div className="social-icons">
           <button className="social-btn google">
-            <img src="/src/assets/google.png" alt="Google" />
+            <img src="../assets/google.png" alt="Google" />
             Google
           </button>
           <button className="social-btn facebook">
-            <img src="/src/assets/facebook.png" alt="Facebook" />
+            <img src="../assets/facebook.png" alt="Facebook" />
             Facebook
           </button>
         </div>
