@@ -1,0 +1,158 @@
+/* Full Page Container */
+.auth-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7;
+  }
+  
+  /* Auth Box */
+  .auth-box {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .auth-box h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Subtext */
+  .auth-box p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Switch Text */
+  .switch-text {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .switch-text span {
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .switch-text span:hover {
+    text-decoration: underline;
+  }
+  
+  /* Auth Form */
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .auth-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  /* Button */
+  .save-btn {
+    background: #007bff;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    align-self: center;
+ 
+  }
+  
+  .save-btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Social Login Section */
+.social-login {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-login p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-btn {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s;
+  width: 120px;
+  justify-content: center;
+}
+
+.social-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.social-btn:hover {
+  background-color: #f0f0f0;
+}
+
+/* Specific styling for each button */
+.social-btn.google {
+  border-color: #db4437;
+}
+
+.social-btn.google:hover {
+  background-color: #f1f1f1;
+}
+
+.social-btn.facebook {
+  border-color: #3b5998;
+}
+
+.social-btn.facebook:hover {
+  background-color: #f1f1f1;
+}
+
+.social-btn.other {
+  border-color: #ccc;
+}
+
+.social-btn.other:hover {
+  background-color: #f1f1f1;
+}
