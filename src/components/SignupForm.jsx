@@ -7,6 +7,8 @@ import {
 } from "firebase/auth";
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
+import facebookIcon from "../assets/facebook.png";
+import googleIcon from "../assets/google.png";
 import { firebaseApp } from "../firbase";
 
 export default function SignupForm() {
@@ -100,7 +102,7 @@ export default function SignupForm() {
             onClick={handleSignupWithGoogle}
             className="social-btn google"
           >
-            <img src="../assets/google.png" alt="Google" />
+            <img src={googleIcon} alt="Google" />
             Google
           </button>
           <button
@@ -108,7 +110,7 @@ export default function SignupForm() {
             onClick={handleSignupWithFacebook}
             className="social-btn facebook"
           >
-            <img src="../assets/facebook.png" alt="Facebook" />
+            <img src={facebookIcon} alt="Facebook" />
             Facebook
           </button>
         </div>

@@ -1,6 +1,8 @@
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
+import facebookIcon from "../assets/facebook.png";
+import googleIcon from "../assets/google.png";
 import { firebaseApp } from "../firbase";
 
 export default function LoginForm() {
@@ -51,11 +53,11 @@ export default function LoginForm() {
         <p>Or log in with:</p>
         <div className="social-icons">
           <button className="social-btn google">
-            <img src="../assets/google.png" alt="Google" />
+            <img src={googleIcon} alt="Google" />
             Google
           </button>
           <button className="social-btn facebook">
-            <img src="../assets/facebook.png" alt="Facebook" />
+            <img src={facebookIcon} alt="Facebook" />
             Facebook
           </button>
         </div>
